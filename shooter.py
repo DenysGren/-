@@ -127,7 +127,7 @@ while game:
     if not finish:
         window.blit(background, (0, 0))
 
-        text = font2.render("Рахунок: " + str(score), 1, (255, 255, 255))
+        text = font2.render("Рахунок: " + str(score), 1, (255, 255, 253))
         window.blit(text, (10, 20))
 
         text_lost = font2.render("Пропущено: " + str(lost), 1, (255, 255, 255))
